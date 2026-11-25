@@ -52,25 +52,3 @@ df_col_result.to_excel(f'{DATA_PATH}Toronto_{COLLEGE_FILE}')
 
 df_combined = pd.concat([df_result,df_col_result])
 df_combined.to_csv(f'{DATA_PATH}Toronto_PostSecondary_Enrolment.csv')
-
-
-
-
-
-
-
-# df_main = pd.read_csv(f'{DATA_PATH}{FILENAME}.csv')
-# df_final = get_matches(df_main,FILTER)
-
-#print(df_final)
-#year_list = set(df_final['REF_DATE'])
-
-#df_final.to_csv(f'{FOLDER}BCPI_{FILETAG}_Combined_{min(year_list)}-{max(year_list)}.csv')
-
-#print(year_list)
-#for year in year_list:
-#    print(f'{year} file printing')
-#    df_year = get_year_data(df_final,year)
-#    df_year.to_csv(f'{FOLDER}BCPI_{FILETAG}_{year}.csv')
-
-
