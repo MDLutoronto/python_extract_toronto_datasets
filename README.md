@@ -12,18 +12,13 @@ Historical business data (2009-) covering Canadian businesses. This script extra
 From Open Ontario, a dataset covering enrolment data 
 * [Enrolment Data Python Script](enrolment_data_extract.py)
 
-## Housing
+## Housing / Residential
 ### BCPI - Building Construction Price Index
 Extract Toronto-specific data from the BCPI (uses CMA). Public use microdata from contractor survey responses.
 * [BCPI Python Script](bcpi_microdata_extract.py)
 
 ### NCAPI - New Condominium Apartment Price Index
 * [New Condominium Price Index Python Script](ncapi_microdata_extract.py)
-
-## Government
-### SLA - Service Level Agreement 
-Information on quarterly transfer payment agency metrics. 
-* [Service Level Agreement Python Script](extract_sla_data.py)
 
 ## Income & Labour 
 ### CIS - Canadian Income Survey
