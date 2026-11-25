@@ -21,11 +21,6 @@ Extract Toronto-specific data from the BCPI (uses CMA). Public use microdata fro
 * [New Condominium Price Index Python Script](ncapi_microdata_extract.py)
 
 ## Income & Labour 
-### CIS - Canadian Income Survey
-Annual cross-sectional survey drawn as a sub-subsample of the Labour Force Survey (LFS) covering income, low income/inequality, 
-housing, labour, disability, health care, and food security
-* [CIS Python Script](cis_microdata_extract.py)
-
 ### LFS - Labour Force Survey
 * [Labour Force Survey Python Script](lfs_microdata_extract.py)
 
